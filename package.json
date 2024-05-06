@@ -1,6 +1,6 @@
 {
   "name": "test-task",
-  "homepage": "https://sekam0.github.io/test-task/",
+  "homepage": ".",
   "private": true,
   "version": "0.0.0",
   "type": "module",
