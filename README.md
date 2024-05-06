@@ -21,7 +21,7 @@ To run this project locally, follow these steps:
 
 2. Navigate to the project directory:
 
-   cd react-pokemon-app
+   cd test-task
 
 3. Install dependencies using npm or yarn:
 
