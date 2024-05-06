@@ -8,7 +8,7 @@ This project is a React-based web application that utilizes the PokeAPI to displ
 - TypeScript
 - Es-lint
 - Axios
-- Redux with Thunk middleware
+- Redux with Toolkit
 - SASS/SCSS (modules)
 
 ## Getting Started
@@ -17,7 +17,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository to your local machine:
 
-   git clone https://github.com/your-username/react-pokemon-app.git
+   git clone https://github.com/SeKaM0/test-task.git
 
 2. Navigate to the project directory:
 
@@ -49,15 +49,13 @@ This project is deployed using GitHub Pages. You can view it [here](https://SeKa
 
 - Display Pokémon with pagination or scrolling
 - Search Pokémon by name
-- Sort Pokémon by type
 - Display detailed information about each Pokémon, including name, image, abilities, and types
 - Navigate back to the main page from the detail page
-- Filter Pokémon by type
 - Custom styling and animations have been added for enhanced user experience.
 
 ## Additional Libraries
 
-In addition to the mandatory technologies, the project also utilizes Material-UI for some UI components.
+In addition to the mandatory technologies, the project also utilizes Flowbite, Tailwind for some UI components.
 
 ## Bonus Features
 
