@@ -1,30 +1,66 @@
-# React + TypeScript + Vite
+# React Pokemon App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React-based web application that utilizes the PokeAPI to display information about Pokémon. It includes features such as pagination, searching by name, sorting by type, and displaying detailed information about each Pokémon.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- TypeScript
+- Es-lint
+- Axios
+- Redux with Thunk middleware
+- SASS/SCSS (modules)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To run this project locally, follow these steps:
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone the repository to your local machine:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+   git clone https://github.com/your-username/react-pokemon-app.git
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Navigate to the project directory:
+
+   cd react-pokemon-app
+
+3. Install dependencies using npm or yarn:
+
+   npm install
+
+   # or
+
+   yarn install
+
+4. Start the development server:
+
+   npm start
+
+   # or
+
+   yarn start
+
+5. Open your browser and visit `http://localhost:3000` to view the application.
+
+## Deployment
+
+This project is deployed using GitHub Pages. You can view it [here](https://SeKaM0.github.io/test-task).
+
+## Features
+
+- Display Pokémon with pagination or scrolling
+- Search Pokémon by name
+- Sort Pokémon by type
+- Display detailed information about each Pokémon, including name, image, abilities, and types
+- Navigate back to the main page from the detail page
+- Filter Pokémon by type
+- Custom styling and animations have been added for enhanced user experience.
+
+## Additional Libraries
+
+In addition to the mandatory technologies, the project also utilizes Material-UI for some UI components.
+
+## Bonus Features
+
+Custom hooks have been implemented for certain functionalities, and unit tests are included to ensure code reliability.
+
+Feel free to explore the codebase and make any contributions or suggestions for improvement!

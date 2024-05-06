@@ -1,6 +1,6 @@
 "use client";
 
-import { Label, Select } from "flowbite-react";
+import {  Select } from "flowbite-react";
 import { FC } from "react";
 interface CustomSelectProps {
   options: string[];
